@@ -16,8 +16,8 @@ from langgraph.graph import StateGraph
 
 st.set_page_config(page_title="AI PDF Tool", layout="wide")
 
-groq_key = st.secrets[""]
-voy_key = st.secrets[""]
+groq_key = st.secrets["GROQ_API_KEY"]
+voy_key = st.secrets["VOY_API_KEY"]
 
 if not groq_key or not voy_key:
     st.error("Keys missing")
