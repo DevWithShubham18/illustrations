@@ -1,0 +1,9 @@
+streamlit
+voyageai
+plotly
+langchain
+langchain-community
+langchain-groq
+langgraph
+faiss-cpu
+pypdf
